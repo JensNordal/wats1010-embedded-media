@@ -22,12 +22,12 @@
 }
 .header-video {
 	height: 500px;
-	border: 1px solid #000;
-	border-right: none;
-	border-left: none;
 	position: relative;
 	padding: 20px;
 	border-radius: 0 0 8px 8px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 #header__video-container {
 	position: absolute;
@@ -201,9 +201,9 @@ hr {
 #watch h2 {
 	padding-left: 15px;
 }
-video {
+#watch video {
 	border: 1px solid black;
-	border-radius: 8px;
+	border-radius: 7px;
 }
 #download-button {
 	background: rgb(0,174,239);
