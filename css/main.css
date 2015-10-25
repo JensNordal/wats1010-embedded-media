@@ -4,7 +4,7 @@
  *
  * Site Styles
  *****************************************************************************/
- 
+
 /*--- Start Header ---*/
 .header__banner {
 	background-color: #CBE445;
@@ -13,6 +13,8 @@
 }
 .header__image--monkey {
 	margin: 0 1rem 0 1.5rem;
+	width: auto;
+	height: 70px;
 	position: absolute;
 	top: 1rem;
 	left: 5.8rem;
@@ -47,6 +49,8 @@
 	z-index: 2;
 	padding-top: 410px;
 	padding-left: 90px;
+	width: 200px; 
+	height: auto;
 }
 
 /*--- Start Navbar ---*/
@@ -140,8 +144,10 @@ hr {
 
 
 /*--- Start Share/Social Styling ---*/
-#social-links li {
+#social ul {
 	list-style-type: none;
+}
+#social li {
 	display: block;
 	border-radius: 4px;
 	padding: 12px;
@@ -149,13 +155,13 @@ hr {
 	color: white;
 	z-index: 3;
 }
-#social-links li a:link {
+#social li a:link {
 	color: white;
 }
-#social-links li a:visited {
+#social li a:visited {
 	color: white
 }
-#social-links li a:hover {
+#social li a:hover {
 	font-weight: bold;
 }
 .twitter {
@@ -203,6 +209,8 @@ hr {
 #watch video {
 	border: 1px solid black;
 	border-radius: 7px;
+	width: 100%;
+	height: auto;
 }
 #download-button {
 	background: rgb(0,174,239);
